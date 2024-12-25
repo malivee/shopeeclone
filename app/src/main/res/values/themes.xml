@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Shopeeclone" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#EA501F</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorOnPrimaryFixedVariant">@color/white</item>
+        <item name="colorSecondary">#EA501F</item>
+<!--        <item name="colorSecondaryVariant">@color/lighter_orange</item>-->
+        <item name="colorOnSecondary">@color/white</item>
+<!--        <item name="colorAccent">@color/orange</item>-->
+        <item name="colorPrimaryFixedDim">@color/black</item>
+
+
+
+
+    </style>
+
+    <style name="Theme.Shopeeclone" parent="Base.Theme.Shopeeclone" />
+</resources>

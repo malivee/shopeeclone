@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SplashScreen.Shopeeclone" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/shopee_seeklogo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Shopeeclone</item>
+    </style>
+</resources>
