@@ -1,4 +1,4 @@
-package com.test.shopeeclone
+package com.test.shopeeclone.ui
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.test.shopeeclone.R
 import com.test.shopeeclone.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
@@ -15,7 +16,6 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTheme(R.style.Theme_Shopeeclone)
 
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
